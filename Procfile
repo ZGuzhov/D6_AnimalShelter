@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn pettyhome.wsgi
+web: gunicorn AnimalShelter.wsgi
