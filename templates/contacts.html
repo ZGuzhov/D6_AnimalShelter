@@ -1,0 +1,92 @@
+{% extends 'base.html' %}
+
+{% block extra_title %}Наши контакты.{% endblock %}
+
+
+{% block content %}
+<div class="container my-5 py-5 z-depth-1">
+  <section class="px-md-5 mx-md-5 text-center dark-grey-text">
+
+    <!--Google map-->
+    <div id="map-container-google-1" class="z-depth-1 map-container mb-5">
+      <iframe src="https://maps.google.com/maps?q=moscow&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+        style="border:0" allowfullscreen></iframe>
+    </div>
+    <!--Google Maps-->
+
+    <div class="row d-flex justify-content-center mb-5">
+      <div class="col-md-6 text-center">
+        <h3 class="font-weight-bold">Обратная связь</h3>
+        <div class="md-form md-outline mt-3">
+          <input type="email" id="form-email" class="form-control" placeholder="name@example.com">
+          <label for="form-email">E-mail</label>
+        </div>
+
+        <div class="md-form md-outline">
+          <input type="text" id="form-subject" class="form-control" placeholder="Иванов Иван Иванович">
+          <label for="form-subject">ФИО</label>
+        </div>
+
+        <div class="md-form md-outline mb-3">
+          <textarea id="form-message" class="md-textarea form-control" rows="5"></textarea>
+          <label for="form-message">Ваш вопрос</label>
+        </div>
+
+        <button type="submit" class="button btn btn-info btn-sm ml-0" data-toggle="modal" data-target="#OkModal" data-backdrop="static" data-keyboard="false">Отправить<i class="far fa-paper-plane ml-2"></i></button>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+        <i class="fas fa-map-marker-alt fa-2x text-primary"></i>
+        <p class="font-weight-bold my-3">Адрес</p>
+        <p class="text-muted">Россия, Москва, ул. Приюта, д. 7</p>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <i class="fas fa-phone fa-2x text-primary"></i>
+          <p class="font-weight-bold my-3">Телефон</p>
+          <p class="text-muted">+ 7 495 123 45 67</p>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <i class="fas fa-envelope fa-2x text-primary"></i>
+          <p class="font-weight-bold my-3">E-mail</p>
+          <p class="text-muted">info@mail.ru</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div class="modal fade" id="OkModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Отправка сообщения</h5>
+          <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button> -->
+        </div>
+        <div class="modal-body">
+          Ваше сообщение отправлено. Мы Вам ответим в ближайшее время на указанный email.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btnClear" data-dismiss="modal">Закрыть</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function() {
+ $(".btnClear").click(function() {
+  $("#form-email").val('');
+  $("#form-subject").val('');
+  $("#form-message").val('');
+ });
+});
+</script>
+{% endblock %}

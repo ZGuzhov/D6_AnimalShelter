@@ -1,0 +1,10 @@
+django
+psycopg2
+psycopg2-binary
+dj_database_url
+Pillow
+django-heroku
+gunicorn
+pytz
+sqlparse
+whitenoise

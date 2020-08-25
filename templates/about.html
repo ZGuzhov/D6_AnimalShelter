@@ -1,0 +1,109 @@
+{% extends 'base.html' %}
+
+{% block extra_title %}О нас.{% endblock %}
+
+
+{% block content %}
+<!-- {% load static %} -->
+<div class="container pt-5 my-5 z-depth-1">
+  <section class="p-md-3 mx-md-5 text-center">
+    <h2 class="text-center mx-auto font-weight-bold mb-4 pb-2">Наша команда</h2>
+    <p class="text-muted w-responsive mx-auto mb-5">Этот сайт создан волонтерами с единственной целью – спасти жизни животных и найти им новый дом и любящих хозяев.</p>
+    <p class="text-muted w-responsive mx-auto mb-5">В нашей стране приютов для животных совсем немного. Подавляющая часть животных принесена туда добрыми людьми
+       или бывшими хозяевами. Животные очень разные - ласковые и не очень, своенравные, боязливые, игривые, грустные, веселые. И все-все – очень красивые!</p>
+    <p class="text-muted w-responsive mx-auto mb-5">Все приютские сироты мечтают об одном – найти свой дом и любящих хозяев.</p>
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="p-4">
+          <div
+            class="avatar w-100 white d-flex justify-content-center align-items-center"
+          >
+            <img
+              src="{% static 'Team/img1.jpg' %}"
+              class="img-fluid rounded-circle z-depth-1"
+            />
+          </div>
+          <div class="text-center mt-3">
+            <h6 class="font-weight-bold pt-2">Ольга Кошкина</h6>
+            <p class="text-muted">
+              <small
+                ><i
+                  >CEO и главный вдохновитель проекта.</i
+                ></small
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="p-4">
+          <div
+            class="avatar w-100 white d-flex justify-content-center align-items-center"
+          >
+            <img
+            src="{% static 'Team/img2.jpg' %}"
+              class="img-fluid rounded-circle z-depth-1"
+            />
+          </div>
+          <div class="text-center mt-3">
+            <h6 class="font-weight-bold pt-2">Елена Мяутова</h6>
+            <p class="text-muted">
+              <small
+                ><i
+                  >Самый лучший специалист по всем пушистым.</i
+                ></small
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="p-4">
+          <div
+            class="avatar w-100 white d-flex justify-content-center align-items-center"
+          >
+            <img
+            src="{% static 'Team/img3.jpg' %}"
+              class="img-fluid rounded-circle z-depth-1"
+            />
+          </div>
+          <div class="text-center mt-3">
+            <h6 class="font-weight-bold pt-2">Валерия Пушистова</h6>
+            <p class="text-muted">
+              <small
+                ><i
+                  >Лучший ветеринар по всем животным.</i
+                ></small
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="p-4">
+          <div
+            class="avatar w-100 white d-flex justify-content-center align-items-center"
+          >
+            <img
+            src="{% static 'Team/img4.jpg' %}"
+              class="img-fluid rounded-circle z-depth-1"
+            />
+          </div>
+          <div class="text-center mt-3">
+            <h6 class="font-weight-bold pt-2">Лев Шариков</h6>
+            <p class="text-muted">
+              <small
+                ><i
+                  >Самый добрый специалист нашего приюта.</i
+                ></small
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+</div>
+{% endblock %}

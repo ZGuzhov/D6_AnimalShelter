@@ -1,0 +1,27 @@
+body {
+  padding-bottom: 20px;
+}
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); 
+}
+.card-text {
+  min-height: 50px;
+}
+.map-container {
+  height: 200px;
+  position: relative;
+}
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+footer p {
+  margin-bottom: .25rem;
+}
