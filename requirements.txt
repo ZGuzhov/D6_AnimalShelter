@@ -7,4 +7,4 @@ django-heroku
 gunicorn
 pytz
 sqlparse
-whitenoise
+whitenoise==4.1.4
