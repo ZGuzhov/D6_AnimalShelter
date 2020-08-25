@@ -36,173 +36,20 @@
     "model": "pets.animal",
     "pk": 1,
     "fields": {
-        "name": "Мышка",
+        "name": "Tiger",
         "breed": 1,
         "family": "CAT",
-        "sex": "F",
-        "description": "Много спит, мало ест.",
+        "sex": "M",
+        "description": "Strong.",
         "date": "2020-08-23",
         "photo": "photo/mishka.jpg"
-    }
-},
-{
-    "model": "pets.animal",
-    "pk": 2,
-    "fields": {
-        "name": "Берни",
-        "breed": 2,
-        "family": "CAT",
-        "sex": "M",
-        "description": "Иногда писает на диван, очень ласковый.",
-        "date": "2020-08-23",
-        "photo": "photo/berni.jpg"
-    }
-},
-{
-    "model": "pets.animal",
-    "pk": 3,
-    "fields": {
-        "name": "Шарик",
-        "breed": 3,
-        "family": "DOG",
-        "sex": "M",
-        "description": "Добрый, ласковый.",
-        "date": "2020-08-23",
-        "photo": "photo/sharik.jpg"
-    }
-},
-{
-    "model": "pets.animal",
-    "pk": 4,
-    "fields": {
-        "name": "Кеша",
-        "breed": 4,
-        "family": "PAR",
-        "sex": "M",
-        "description": "Разговорчивый.",
-        "date": "2020-08-23",
-        "photo": "photo/kesha.jpg"
-    }
-},
-{
-    "model": "pets.animal",
-    "pk": 5,
-    "fields": {
-        "name": "Громила",
-        "breed": 5,
-        "family": "DOG",
-        "sex": "M",
-        "description": "Очень злой и страшный. Гоняет всех вокруг.",
-        "date": "2020-08-25",
-        "photo": "photo/gromila.jpg"
-    }
-},
-{
-    "model": "pets.animal",
-    "pk": 6,
-    "fields": {
-        "name": "Копна",
-        "breed": 6,
-        "family": "DOG",
-        "sex": "F",
-        "description": "Добрая, пушистая, тёплая, игривая.",
-        "date": "2020-08-25",
-        "photo": "photo/kopna.jpg"
-    }
-},
-{
-    "model": "pets.animal",
-    "pk": 7,
-    "fields": {
-        "name": "Малыш",
-        "breed": 7,
-        "family": "DOG",
-        "sex": "M",
-        "description": "Игривый, много есть, любит много гулять.",
-        "date": "2020-08-25",
-        "photo": "photo/malish.jpg"
-    }
-},
-{
-    "model": "pets.animal",
-    "pk": 8,
-    "fields": {
-        "name": "Тузик",
-        "breed": 3,
-        "family": "DOG",
-        "sex": "M",
-        "description": "Быстрый, дерзкий, умный.",
-        "date": "2020-08-25",
-        "photo": "photo/tuzik.jpg"
-    }
-},
-{
-    "model": "pets.animal",
-    "pk": 9,
-    "fields": {
-        "name": "Вася",
-        "breed": 8,
-        "family": "PAR",
-        "sex": "M",
-        "description": "Тихий, спокойный. Любит поспать и поесть.",
-        "date": "2020-08-25",
-        "photo": "photo/vasya.jpg"
     }
 },
 {
     "model": "pets.breed",
     "pk": 1,
     "fields": {
-        "name": "Шотландская вислоухая"
-    }
-},
-{
-    "model": "pets.breed",
-    "pk": 2,
-    "fields": {
-        "name": "Британец"
-    }
-},
-{
-    "model": "pets.breed",
-    "pk": 3,
-    "fields": {
-        "name": "Двортерьер"
-    }
-},
-{
-    "model": "pets.breed",
-    "pk": 4,
-    "fields": {
-        "name": "Какаду"
-    }
-},
-{
-    "model": "pets.breed",
-    "pk": 5,
-    "fields": {
-        "name": "Той-терьер"
-    }
-},
-{
-    "model": "pets.breed",
-    "pk": 6,
-    "fields": {
-        "name": "Мохнатый"
-    }
-},
-{
-    "model": "pets.breed",
-    "pk": 7,
-    "fields": {
-        "name": "Непомнюпорода"
-    }
-},
-{
-    "model": "pets.breed",
-    "pk": 8,
-    "fields": {
-        "name": "Какойтопопугай"
+        "name": "Burmilla"
     }
 }
 ]
